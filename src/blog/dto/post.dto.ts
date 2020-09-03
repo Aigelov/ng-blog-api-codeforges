@@ -1,6 +1,4 @@
-export class PostDto {
-  public title: string;
-  public subTitle: string;
-  public imageUrl: string;
-  public content: string;
+import { PostEntity } from '../entites/post.entity';
+
+export class PostDto extends PostEntity {
 }
